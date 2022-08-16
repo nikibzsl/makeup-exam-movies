@@ -20,6 +20,7 @@ const movieCardComponent = function () {
                 <p class="numbers">${movie.number}</p>
                 <h1 class="title">${movie.title}</h1>
                 <h2 class="sub">${movie.sub}</h2>
+                <hr class="solid">
                 <p class="text">${movie.text}</p>
                 <button class="watch">${movies.button}</button>
                 </div>

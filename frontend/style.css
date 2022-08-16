@@ -31,6 +31,7 @@ header {
 
 .cards-container {
     display: flex;
+    flex-wrap: wrap;
 
     color: #242d38;
     background-color: #efd592;
@@ -53,21 +54,23 @@ header {
     display:block;
     position: absolute;
 
-    left: 500px;
-
-
     background-color: #242d38;
     color: #efd592;
 
     font-family: 'Poppins';
-    text-transform: uppercase;
     font-weight: 100;
 
-    width: 250px;
-    height: 55px;
+    width: 100% - 40px;
+    height: 60px;
 
-    border: 1px solid #efd592;;
+    border: 1px solid #efd592;
     
+}
+
+.watch:hover {
+    background-color: #efd592;
+    color: #242d38;
+    border: 1px solid #242d38;;
 }
 
 .numbers {
@@ -95,4 +98,8 @@ header {
 
     border: 1px solid #efd592;;
     
+}
+
+.solid {
+    border-top: 1px solid #242d38;
 }
