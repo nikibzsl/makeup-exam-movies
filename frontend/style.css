@@ -32,6 +32,7 @@ header {
 .cards-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 
     color: #242d38;
     background-color: #efd592;
