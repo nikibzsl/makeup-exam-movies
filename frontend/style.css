@@ -31,14 +31,28 @@ header {
 
 .cards-container {
     display: flex;
+    position: relative;
     flex-wrap: wrap;
+    align-content:space-between;
+
+    max-width: 1000px;
 
     color: #242d38;
     background-color: #efd592;
 
     margin: 90px 20px;
-    padding: 30px;
+    padding: 40px;
 
+}
+
+.cards-inner {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+    width: 450px;
+    height: 300px;
 }
 
 .title {
@@ -64,6 +78,9 @@ header {
     height: 60px;
 
     border: 1px solid #efd592;
+
+    bottom: -1;
+    right: 50%;
     
 }
 
@@ -79,7 +96,7 @@ header {
     position:relative;
 
     bottom: 70px;
-    left: 500px;
+    left: 50%;
 
     justify-content: center;
 
